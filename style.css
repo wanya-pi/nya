@@ -1,0 +1,243 @@
+/* ------------------------------
+   全体
+------------------------------ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family:
+        "Hiragino Kaku Gothic ProN",
+        "Yu Gothic",
+        sans-serif;
+
+    background: #fff7f5;
+
+    color: #5d5050;
+}
+
+
+/* ------------------------------
+   サイト全体の箱
+------------------------------ */
+
+.container {
+    width: 90%;
+    max-width: 500px;
+
+    margin: 40px auto;
+    padding: 30px 25px;
+
+    background: #ffffff;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 10px 30px rgba(120, 90, 90, 0.12);
+}
+
+
+/* ------------------------------
+   ヘッダー
+------------------------------ */
+
+header {
+    text-align: center;
+}
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 0;
+
+    font-size: 28px;
+    line-height: 1.4;
+
+    color: #8f6870;
+}
+
+.subtitle {
+    margin-top: 12px;
+
+    font-size: 14px;
+
+    color: #9d8989;
+}
+
+
+/* ------------------------------
+   報告入力欄
+------------------------------ */
+
+.report-section {
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 130px;
+
+    padding: 15px;
+
+    border: 2px solid #f0d9dc;
+    border-radius: 15px;
+
+    resize: none;
+
+    font-size: 15px;
+
+    font-family: inherit;
+
+    background: #fffafb;
+
+    color: #5d5050;
+}
+
+textarea:focus {
+    outline: none;
+
+    border-color: #dcaeb7;
+}
+
+
+/* ------------------------------
+   ボタン
+------------------------------ */
+
+.buttons {
+    display: flex;
+
+    gap: 12px;
+
+    margin-top: 20px;
+}
+
+button {
+    border: none;
+
+    font-family: inherit;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.good-button,
+.bad-button {
+    flex: 1;
+
+    padding: 15px 10px;
+
+    border-radius: 15px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+}
+
+.good-button {
+    background: #ffe4a8;
+    color: #765d35;
+}
+
+.bad-button {
+    background: #e8e2ef;
+    color: #665c70;
+}
+
+.good-button:hover,
+.bad-button:hover {
+    transform: translateY(-2px);
+
+    opacity: 0.85;
+}
+
+
+/* ------------------------------
+   結果
+------------------------------ */
+
+.result {
+    margin-top: 30px;
+
+    padding: 25px 20px;
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    background: #fff5dc;
+}
+
+.result-icon {
+    font-size: 45px;
+
+    margin-bottom: 10px;
+}
+
+#resultMessage {
+    margin: 0;
+
+    font-size: 19px;
+
+    font-weight: bold;
+
+    line-height: 1.7;
+}
+
+
+/* ------------------------------
+   もう一度ボタン
+------------------------------ */
+
+.reset-button {
+    margin-top: 20px;
+
+    padding: 10px 20px;
+
+    border-radius: 20px;
+
+    background: #ffffff;
+
+    border: 1px solid #e0cccc;
+
+    color: #806c6c;
+}
+
+
+/* ------------------------------
+   非表示にするためのクラス
+------------------------------ */
+
+.hidden {
+    display: none;
+}
+
+
+/* ------------------------------
+   フッター
+------------------------------ */
+
+footer {
+    margin-top: 30px;
+
+    text-align: center;
+
+    font-size: 11px;
+
+    color: #b5a5a5;
+}
